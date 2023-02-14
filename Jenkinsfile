@@ -13,7 +13,7 @@ pipeline
                 git 'https://github.com/Dipalib91/BDD_UI_Framework.git'
 
                 // To run Maven on a Windows agent, use
-                // bat "mvn test -DthreadCount=1"
+                bat "mvn test -DthreadCount=1"
             }
 
             
