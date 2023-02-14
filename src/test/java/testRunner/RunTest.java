@@ -13,7 +13,10 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome = true,
 		publish = true,
 
-		plugin= {"pretty","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+		//plugin= {"pretty","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+		plugin= {"pretty","html:target/cucumber-reports",
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+				"json:target/Destination/cucumber.json"}
 	)
 public class RunTest {
 	
