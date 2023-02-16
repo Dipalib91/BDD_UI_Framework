@@ -13,7 +13,7 @@ stage('Test')
 steps
 {
 echo "Testing the code....."
-bat "mvn install"
+bat "mvn test -DthreadCount=1"
 }
 }
 }
