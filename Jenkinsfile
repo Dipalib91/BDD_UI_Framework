@@ -16,13 +16,6 @@ echo "Testing the code....."
 bat "mvn install"
 }
 }
-stages('Compile')
-{
-steps{
-echo "Compiling the Project"
-bat "mvn compile"
-}
-}
 }
 }
 
