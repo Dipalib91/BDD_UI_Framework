@@ -16,7 +16,7 @@ echo "Testing the code....."
 bat "mvn test -DthreadCount=1"
 }
 }
-stages('Compile')
+stage('Compile')
 {
 steps{
 echo "Compiling the Project"
