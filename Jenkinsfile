@@ -26,7 +26,7 @@ stage('Compile')
 }
   post{
     always{
-            emailext body: 'jenkins  job status', subject: 'status', to: 'seleniumtest61@gmail.com'
+            emailext body: 'jenkins  job status', subject: 'status', to: 'dipalib@testrig.co.in'
     }
   
 }
